@@ -260,6 +260,10 @@ public class Board
 					{
 						System.out.print(".");
 					}
+					else if(chessBoard[row][col-1] == 'X'){
+						System.out.print(".");
+						
+					}
 					else
 					{
 						System.out.print(chessBoard[row][col-1]);
